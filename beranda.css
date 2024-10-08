@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    background-image: url(32370.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: url(20241003_030038_0000.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: left;
+    padding: 15px;
+    padding-left: 25px;
+    color: #ffffff;
+    text-align: start 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: #436c92;
+    padding: 0.9em 0;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    color: #fbfcfd;
+    margin: 0 1em;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: #070707;
+}
+
+nav a:hover {
+    color: #03c9fb;
+}
+
+.container {
+    position: absolute;
+    top: 500px;
+    left: 748px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 300px;
+    padding-top: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.671);
+}
+
+.benefits-section {
+    text-align: center;
+    padding: 20px;
+}
+.benefit-item {
+    display: inline-block;
+    width: 150px;
+    margin: 20px;
+    vertical-align: top;
+}
+.benefit-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.benefit-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.benefit-description {
+    font-size: 14px;
+}

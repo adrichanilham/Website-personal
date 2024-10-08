@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(lo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background: #436c92;
+    padding: 0.9em 0;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    color: #fbfcfd;
+    margin: 0 1em;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: #070707;
+}
+
+nav a:hover {
+    color: #03c9fb;
+}
+
+.ha {
+    text-align: center;
+    padding: 8px;
+    color: #14776c;
+    background-origin: padding-box;
+    background-color: azure;
+}
+
+.container {
+    position: absolute;
+    top: 400px;
+    left: 748px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.793);
+    width: 450px;
+    height: auto;
+    padding: 30px 35px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+

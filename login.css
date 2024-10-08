@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    background-image: url(lo.jpg);color: rgba(0, 0, 0, 0.245);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    top: 350px;
+    left: 748px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 450px;
+    height: auto;
+    padding: 35px 35px;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
